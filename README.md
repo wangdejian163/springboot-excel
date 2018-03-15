@@ -1,2 +1,2 @@
 # springboot-excel
-读取excel中表数据，生成sql语句到.txt文件中.
+一次性读取目录下所有excel文件，生成需要的sql语句到.txt文件中.
