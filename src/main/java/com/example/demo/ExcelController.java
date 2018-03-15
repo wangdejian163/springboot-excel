@@ -29,7 +29,7 @@ public class ExcelController {
 
     @RequestMapping(value = "poiExportExcel")
     public void poiExportExcel() throws IOException {
-        Path dir = Paths.get("C:\\bonc\\gitworkspace\\excel-es-mysql\\src\\main\\resources\\excel");
+        Path dir = Paths.get("C:\\gitworkspace\\excel-es-mysql\\src\\main\\resources\\excel");
 
         // 获取到目录下所有的excel.
         Files.walkFileTree(dir, new SimpleFileVisitor<Path>() {
